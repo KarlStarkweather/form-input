@@ -3,7 +3,9 @@ $(document).ready(function() {
     const name = $("#name").val();
     const birthDate = $("#birthDate").val();
     const favFood = $("#favFood").val();
-    alert("food selected was " + favFood);  
+    const gender = $("input:radio[name=gender]:checked").val();
+    const housing = $("input:radio[name=housing]:checked").val();
+    alert("gender is " + gender + " and housing status is " + housing);  
   });
   
  
